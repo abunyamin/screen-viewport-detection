@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Dasar JavaScript</title>
+  </head>
+  <body>
+    <header>
+      <navbar class="navbar">
+        <h1 class="logo">Abun Yamin</h1>
+        <div class="github">
+          <a href="https://github.com/abunyamin">
+          <img src="./assets/github.png" alt="Github Source Code" class="github__icon" />
+          </a>
+        </div>
+      </navbar>
+    </header>
+    <main>
+      <div class="content__box">
+        <button id="modal__btn"><i class="ri-information-line"></i></button>
+        <h2 class="viewport__title">Your Viewport</h2>
+        <span class="viewport__size"></span>
+        <h3 class="screen__title">Your Screen Size</h3>
+        <span class="screen__size"></span>
+        <span class="dpr__size"></span>
+      </div>
+    </main>
+    <div id="modal">
+      <div class="modal-content">
+        <button id="modal__close">
+          <i class="ri-close-fill"></i>
+        </button>
+        <h2 class="modal-content__title">What is Screen size and Viewport?</h2>
+        <p><span class="text__weight">Screen Size</span>: It refers to the actual physical dimensions of a display screen, typically measured diagonally. It represents the entire surface area of the screen, including any borders or edges.</p>
+        <p>
+          <span class="text__weight">Viewport</span>: The viewport is the visible portion of a web page that is displayed within the browser window. It's the part of the web page that users can see without scrolling. The size of the viewport can vary depending on the
+          device's screen size, resolution, and browser settings. In web design, adapting content to fit within the viewport ensures optimal presentation on different devices.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
