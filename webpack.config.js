@@ -21,6 +21,7 @@ module.exports = {
         options: {
           name: '[name].[ext]',
           outputPath: 'assets',
+          limit: 2048, // 2kb
         },
       },
     ],
