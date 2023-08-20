@@ -66,7 +66,6 @@ h6 {
 
 body {
   font-family: 'Inter', -apple-system, 'Nunito', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: #393939;
   background: rgb(187, 115, 224);
   background: linear-gradient(135deg, rgba(187, 115, 224, 1) 35%, rgba(255, 141, 219, 1) 96%);
   width: 100vw;
@@ -79,6 +78,7 @@ body {
   position: relative;
 }
 
+/* NABVAR ELEMENT */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -90,8 +90,8 @@ body {
 
 .logo {
   text-align: center;
-  
-  background: linear-gradient(295deg, #ffffff, rgba(227,255,115,1) 35%, rgba(226,124,57,1) 96%);
+
+  background: linear-gradient(295deg, #ffffff, rgba(227, 255, 115, 1) 35%, rgba(226, 124, 57, 1) 96%);
   background-size: 200% auto;
   color: #000;
   background-clip: text;
@@ -101,11 +101,11 @@ body {
   animation: shine 3s linear infinite;
 }
 
-  @keyframes shine {
-    to {
-      background-position: 200% center;
-    }
+@keyframes shine {
+  to {
+    background-position: 200% center;
   }
+}
 
 .github__icon {
   width: 42px;
@@ -115,6 +115,7 @@ body {
   border: 4px solid #ffffff;
 }
 
+/* MAIN ELEMENT */
 main {
   display: flex;
   align-items: center;
@@ -177,7 +178,9 @@ main {
   font-size: 20px;
 }
 
-#modal__btn, #modal__close {
+/* MODAL BUTTON */
+#modal__btn,
+#modal__close {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -193,12 +196,13 @@ main {
 }
 
 button#modal__close {
-  background-color: #EA1179;
+  background-color: #ea1179;
   top: -10px;
   right: -10px;
 }
 
-i.ri-information-line, i.ri-close-fill {
+i.ri-information-line,
+i.ri-close-fill {
   height: auto;
   display: block;
   font-size: 32px;
@@ -253,7 +257,7 @@ i.ri-close-fill {
 
 @keyframes zoomIn {
   0% {
-    transform: scale(.2);
+    transform: scale(0.2);
   }
   20% {
     transform: scale(1.08);
@@ -280,3 +284,4 @@ i.ri-close-fill {
     display: none;
   }
 }
+
